@@ -50,7 +50,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #1A237E;
   text-decoration: underline;
 }
 
@@ -76,12 +76,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #1A237E;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #1A237E;
   color: #fff;
 }
 
@@ -150,7 +150,8 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  /* background: #b8a07e; */
+  background: #1A237E;
 }
 
 .mb-30 {
@@ -338,8 +339,8 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
-  margin-top: 400px;
+  border: 20px solid #1A237E;
+  margin-top: 200px;
 }
 
 #about .div-img-bg .about-img img {
@@ -396,7 +397,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #1A237E;
   line-height: 44px;
 }
 
@@ -422,7 +423,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #1A237E;
 }
 
 .owl-nav {
@@ -460,7 +461,7 @@ nav ul li a {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  color: #1A237E;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -502,11 +503,11 @@ nav ul li a {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #b8a07e;
+  color: #1A237E;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cab89f;
+  color: #1A237E;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
@@ -549,7 +550,7 @@ nav ul li a {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #b8a07e !important;
+  background-color: #1A237E !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -651,7 +652,7 @@ nav ul li a {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #1A237E;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -799,7 +800,7 @@ nav ul li a {
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #1A237E;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -883,7 +884,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #b8a07e;
+  border-left: 4px solid #1A237E;
 }
 
 /*--------------------------------------------------------------
@@ -922,7 +923,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #1A237E;
   transition: all 0.5s ease-in-out 0s;
 }
 
