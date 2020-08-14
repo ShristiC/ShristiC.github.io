@@ -337,8 +337,12 @@ nav ul li a {
 }
 
 #about .div-img-bg {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   border: 20px solid #b8a07e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #about .div-img-bg .about-img img {
