@@ -259,12 +259,12 @@ nav ul li a {
 
 .hero-content .list-social li {
   float: left;
-  margin-right: 20px;
+  margin-right: 35px;
 }
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 35px;
 }
 
 /*--------------------------------------------------------------
@@ -337,12 +337,11 @@ nav ul li a {
 }
 
 #about .div-img-bg {
-  /* padding-bottom: 30px; */
+  padding-top: 100px;
+  padding-bottom: 30px;
   border: 20px solid #b8a07e;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 #about .div-img-bg .about-img img {
