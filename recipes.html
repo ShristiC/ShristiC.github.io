@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes — Shristi Chitlangia</title>
+  <meta name="description" content="Recipes from Shristi's kitchen — weeknight dinners, post-hike favorites, and everything in between.">
+  <link rel="icon" href="assets/img/me_icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg"></div>
+    <div class="blob blob-1" style="opacity:.18;"></div>
+    <div class="blob blob-2" style="opacity:.15;"></div>
+    <div class="page-hero-inner">
+      <span class="section-label">From the kitchen</span>
+      <h1 class="grad-text">Recipes</h1>
+      <p>Things I make on repeat — weeknight dinners, post-hike recovery meals, and snacks that actually travel.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+        <button class="filter-btn" data-filter="dinner">Lunch &amp; Dinner</button>
+        <button class="filter-btn" data-filter="snacks">Snacks</button>
+        <button class="filter-btn" data-filter="dessert">Desserts</button>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-lg-4" data-cat="dinner">
+          <div class="recipe-card">
+            <div class="recipe-img bg-green">
+              <i class="fas fa-egg" style="color:#fff;opacity:.7;"></i>
+            </div>
+            <div class="recipe-body">
+              <span class="r-tag rt-dinner">Dinner</span>
+              <div class="recipe-meta">
+                <span><i class="fas fa-clock"></i>&nbsp; 35 min</span>
+                <span><i class="fas fa-users"></i>&nbsp; 2 servings</span>
+              </div>
+              <h4>Shakshuka</h4>
+              <p>Spiced tomato sauce, poached eggs, crusty bread to mop it all up. My go-to post-hike recovery meal and honestly just a go-to any time meal.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4" data-cat="breakfast">
+          <div class="recipe-card">
+            <div class="recipe-img bg-blue">
+              <i class="fas fa-sun" style="color:#fff;opacity:.7;"></i>
+            </div>
+            <div class="recipe-body">
+              <span class="r-tag rt-breakfast">Breakfast</span>
+              <div class="recipe-meta">
+                <span><i class="fas fa-clock"></i>&nbsp; 25 min</span>
+                <span><i class="fas fa-users"></i>&nbsp; 8 pancakes</span>
+              </div>
+              <h4>Brown Butter Banana Pancakes</h4>
+              <p>The nutty depth of brown butter makes these so much better than regular banana pancakes. Weekend-only, because they deserve the time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4" data-cat="snacks">
+          <div class="recipe-card">
+            <div class="recipe-img bg-pink">
+              <i class="fas fa-leaf" style="color:#fff;opacity:.7;"></i>
+            </div>
+            <div class="recipe-body">
+              <span class="r-tag rt-snacks">Snacks</span>
+              <div class="recipe-meta">
+                <span><i class="fas fa-clock"></i>&nbsp; 15 min + chill</span>
+                <span><i class="fas fa-users"></i>&nbsp; 20 pieces</span>
+              </div>
+              <h4>Dark Chocolate Trail Mix Bark</h4>
+              <p>Dark chocolate, whatever nuts and dried fruit are in the pantry, flaky salt. Comes together in 15 minutes and survives a full day pack.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4" data-cat="dinner">
+          <div class="recipe-card">
+            <div class="recipe-img bg-green">
+              <i class="fas fa-pepper-hot" style="color:#fff;opacity:.7;"></i>
+            </div>
+            <div class="recipe-body">
+              <span class="r-tag rt-dinner">Dinner</span>
+              <div class="recipe-meta">
+                <span><i class="fas fa-clock"></i>&nbsp; 30 min</span>
+                <span><i class="fas fa-users"></i>&nbsp; 2&ndash;3 servings</span>
+              </div>
+              <h4>Thai Basil Chicken (Pad Krapow Gai)</h4>
+              <p>Fast, deeply savory, and better than most takeout. The holy basil makes all the difference if you can find it. Thai chilies do too.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4" data-cat="dessert">
+          <div class="recipe-card">
+            <div class="recipe-img bg-purple">
+              <i class="fas fa-cookie" style="color:#fff;opacity:.7;"></i>
+            </div>
+            <div class="recipe-body">
+              <span class="r-tag rt-dessert">Dessert</span>
+              <div class="recipe-meta">
+                <span><i class="fas fa-clock"></i>&nbsp; 20 min</span>
+                <span><i class="fas fa-users"></i>&nbsp; 24 cookies</span>
+              </div>
+              <h4>Cardamom Brown Butter Cookies</h4>
+              <p>Thin, crispy edges, chewy centers. The cardamom is subtle but you'd notice if it wasn't there. My most-requested bake.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4" data-cat="breakfast">
+          <div class="recipe-card">
+            <div class="recipe-img bg-blue">
+              <i class="fas fa-mug-hot" style="color:#fff;opacity:.7;"></i>
+            </div>
+            <div class="recipe-body">
+              <span class="r-tag rt-breakfast">Breakfast</span>
+              <div class="recipe-meta">
+                <span><i class="fas fa-clock"></i>&nbsp; 5 min</span>
+                <span><i class="fas fa-users"></i>&nbsp; 1 serving</span>
+              </div>
+              <h4>Mango Lassi</h4>
+              <p>Thick, sweet, just tart enough from the yogurt. I grew up drinking this and still make it at least once a week. Dead simple, never gets old.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5" style="padding:2rem;border:2px dashed var(--border);border-radius:var(--r);background:var(--white);">
+        <i class="fas fa-utensils" style="font-size:1.75rem;color:var(--green-dk);margin-bottom:.75rem;display:block;"></i>
+        <h4 style="font-size:1.1rem;margin-bottom:.4rem;">More recipes coming</h4>
+        <p style="font-size:.88rem;">I cook more than I document — but I'm working on it. Have a request? Let me know.</p>
+        <a href="mailto:shristichitlangia2001@gmail.com" class="btn-outline" style="margin-top:1rem;display:inline-flex;">
+          <i class="fas fa-envelope"></i> Request a recipe
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

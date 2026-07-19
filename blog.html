@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Shristi Chitlangia</title>
+  <meta name="description" content="Thoughts on tech, food, life, and whatever else is on Shristi's mind.">
+  <link rel="icon" href="assets/img/me_icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg"></div>
+    <div class="blob blob-1" style="opacity:.18;"></div>
+    <div class="blob blob-2" style="opacity:.15;"></div>
+    <div class="page-hero-inner">
+      <span class="section-label">Writing</span>
+      <h1 class="grad-text">Blog</h1>
+      <p>Tech deep-dives, food stories, life updates, and random thoughts. No particular schedule.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="tech">Tech</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+        <button class="filter-btn" data-filter="life">Life</button>
+        <button class="filter-btn" data-filter="thoughts">Thoughts</button>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4" data-cat="tech">
+          <div class="blog-card">
+            <div class="blog-img bg-blue"><i class="fas fa-universal-access" style="color:#fff;opacity:.7;font-size:2.5rem;"></i></div>
+            <div class="blog-body">
+              <span class="post-tag tag-tech">Tech</span>
+              <h4>Why Accessibility Should Be Your Default, Not an Afterthought</h4>
+              <p class="excerpt">We keep treating accessibility like a checklist item at the end of a sprint. It doesn't have to be that way — and here's how I think about it.</p>
+              <div class="blog-meta"><i class="fas fa-calendar-alt"></i>&nbsp; Coming soon</div>
+              <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-cat="food">
+          <div class="blog-card">
+            <div class="blog-img bg-green"><i class="fas fa-egg" style="color:#fff;opacity:.7;font-size:2.5rem;"></i></div>
+            <div class="blog-body">
+              <span class="post-tag tag-food">Food</span>
+              <h4>The Only Shakshuka Recipe You'll Ever Need</h4>
+              <p class="excerpt">My go-to post-hike recovery meal. Spicy, warming, and nearly impossible to mess up — even when you're exhausted from a 10-miler.</p>
+              <div class="blog-meta"><i class="fas fa-calendar-alt"></i>&nbsp; Coming soon</div>
+              <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-cat="life">
+          <div class="blog-card">
+            <div class="blog-img bg-pink"><i class="fas fa-hockey-puck" style="color:#fff;opacity:.7;font-size:2.5rem;"></i></div>
+            <div class="blog-body">
+              <span class="post-tag tag-life">Life</span>
+              <h4>Starting Ice Hockey at 23: What I Wish Someone Had Told Me</h4>
+              <p class="excerpt">On picking up a completely new sport as an adult, falling down a lot, and why it's still been one of my best decisions.</p>
+              <div class="blog-meta"><i class="fas fa-calendar-alt"></i>&nbsp; Coming soon</div>
+              <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-cat="thoughts">
+          <div class="blog-card">
+            <div class="blog-img bg-purple"><i class="fas fa-city" style="color:#fff;opacity:.7;font-size:2.5rem;"></i></div>
+            <div class="blog-body">
+              <span class="post-tag tag-thoughts">Thoughts</span>
+              <h4>One Year in Boston: A Love Letter to a City That Took Getting Used To</h4>
+              <p class="excerpt">Moving somewhere new is hard. Boston earned me slowly, and I think that's actually why I love it now.</p>
+              <div class="blog-meta"><i class="fas fa-calendar-alt"></i>&nbsp; Coming soon</div>
+              <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-cat="tech">
+          <div class="blog-card">
+            <div class="blog-img bg-blue"><i class="fas fa-code" style="color:#fff;opacity:.7;font-size:2.5rem;"></i></div>
+            <div class="blog-body">
+              <span class="post-tag tag-tech">Tech</span>
+              <h4>What Building a Date Range Component Taught Me About Legacy Code</h4>
+              <p class="excerpt">A 7-year-old open request. 1,300+ lines of code. And a lot of thoughts about what it means to ship something that actually lasts.</p>
+              <div class="blog-meta"><i class="fas fa-calendar-alt"></i>&nbsp; Coming soon</div>
+              <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-cat="life">
+          <div class="blog-card">
+            <div class="blog-img bg-pink"><i class="fas fa-person-hiking" style="color:#fff;opacity:.7;font-size:2.5rem;"></i></div>
+            <div class="blog-body">
+              <span class="post-tag tag-life">Life</span>
+              <h4>Everything I've Learned from New England Trails (So Far)</h4>
+              <p class="excerpt">Pack more layers than you think you need. The summit is always worth it. And never underestimate a White Mountain approach trail.</p>
+              <div class="blog-meta"><i class="fas fa-calendar-alt"></i>&nbsp; Coming soon</div>
+              <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5" style="padding:2rem;border:2px dashed var(--border);border-radius:var(--r);background:var(--white);">
+        <i class="fas fa-pen-nib" style="font-size:1.75rem;color:var(--purple);margin-bottom:.75rem;display:block;"></i>
+        <h4 style="font-size:1.1rem;margin-bottom:.4rem;">More posts coming soon</h4>
+        <p style="font-size:.88rem;">I write when I have something worth saying. Check back, or drop me a line if there's a topic you'd like to hear about.</p>
+        <a href="mailto:shristichitlangia2001@gmail.com" class="btn-outline" style="margin-top:1rem;display:inline-flex;">
+          <i class="fas fa-envelope"></i> Get in touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
