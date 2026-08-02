@@ -49,7 +49,7 @@
           <i class="fas fa-envelope"></i>
         </a>
       </div>
-      <p>&copy; ${new Date().getFullYear()} Shristi Chitlangia &mdash; Built with care.</p>
+      <p>&copy; ${new Date().getFullYear()} Shristi Chitlangia</p>
     </div>
   </footer>`;
 
