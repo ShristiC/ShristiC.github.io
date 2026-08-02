@@ -12,28 +12,6 @@ document.querySelectorAll('.nav-link').forEach(a => {
   if (a.getAttribute('href') === page) a.classList.add('active');
 });
 
-/* Typed text (home page only) */
-const typedEl = document.getElementById('typed');
-if (typedEl) {
-  const phrases = [
-    'Full-Stack Software Engineer',
-    'Accessibility Advocate',
-    'Foodie',
-    'Ice Hockey Player',
-    'Hiker & Camper',
-    'Avid Reader'
-  ];
-  let pi = 0, ci = 0, del = false;
-  (function tick() {
-    const phrase = phrases[pi];
-    typedEl.textContent = del ? phrase.slice(0, --ci) : phrase.slice(0, ++ci);
-    let wait = del ? 55 : 95;
-    if (!del && ci === phrase.length) { wait = 2200; del = true; }
-    else if (del && ci === 0) { del = false; pi = (pi + 1) % phrases.length; wait = 350; }
-    setTimeout(tick, wait);
-  })();
-}
-
 /* Category filtering */
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {

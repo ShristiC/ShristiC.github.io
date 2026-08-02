@@ -61,6 +61,7 @@ ul { list-style:none; padding:0; margin:0; }
 .hero-inner { position:relative; z-index:1; }
 .hero h1 { font-size:3.25rem; font-weight:900; margin-bottom:.45rem; }
 .hero-sub { font-size:1.1rem; color:var(--muted); font-weight:600; margin-bottom:.3rem; }
+.hero-sub-small { font-size: 0.8rem; color:var(--muted); font-weight:600; padding:.3rem; }
 .typed-wrap { min-height:1.75rem; margin-bottom:1.9rem; }
 #typed { font-size:.97rem; font-weight:800; color:var(--purple-dk); }
 .cursor { display:inline-block; width:2px; height:.95em; background:var(--purple); margin-left:2px; vertical-align:middle; animation:blink 1s step-end infinite; }
