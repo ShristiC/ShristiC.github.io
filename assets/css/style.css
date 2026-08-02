@@ -140,6 +140,7 @@ ul { list-style:none; padding:0; margin:0; }
 .tl-title { font-size:1.15rem; margin-bottom:.12rem; }
 .tl-co { font-size:.87rem; font-weight:700; color:var(--blue-dk); margin-bottom:.35rem; }
 .tl-desc { font-size:.88rem; color:var(--muted); }
+.timeline .story-list li { font-size:.88rem; }
 
 /* Project Cards */
 .proj-card { background:var(--white); border-radius:var(--r); border:1px solid var(--border); box-shadow:var(--sh-xs); padding:1.5rem; transition:var(--tx); height:100%; display:flex; flex-direction:column; }

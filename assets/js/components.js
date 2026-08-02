@@ -17,7 +17,7 @@
         <ul class="navbar-nav ms-auto align-items-center">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="tech.html">Tech</a></li>
+          <li class="nav-item"><a class="nav-link" href="tech.html">My Career</a></li>
           <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
           <li class="nav-item"><a class="nav-link" href="photos.html">Gallery</a></li>
@@ -33,7 +33,7 @@
       <div class="footer-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="tech.html">Tech</a>
+        <a href="tech.html">My Career</a>
         <a href="blog.html">Blog</a>
         <a href="recipes.html">Recipes</a>
         <a href="photos.html">Gallery</a>
